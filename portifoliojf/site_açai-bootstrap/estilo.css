@@ -81,3 +81,15 @@ h5{
 #galeria :hover {
    opacity: 0.3;   /* opacidade de 30% na img*/
 }
+
+/*Imagens de coxinhas*/
+.imagem-capa01 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;   
+}
+
+.my-3 {
+   text-align: center;
+}
