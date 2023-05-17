@@ -36,9 +36,10 @@ nav a:hover {
    text-align: center;
   
  }
+ /*muda a cor do formulario*/
  
 .conteudo-secao{
-   background-color: #888;
+   background-color: #7D1E7C;
    padding: 1.5rem;
    color: white;
 }
@@ -46,7 +47,7 @@ nav a:hover {
 .well{
    padding: 16px 20px;
    font-size: 20px;
-   color: #317201; 
+   color: #7D1E7C; 
 }
 
 /*Imagens de misto quente*/
@@ -72,24 +73,67 @@ h5{
 
 /* colocar opacidade em img galeria*/
 
-#galeria {
+ /*#galeria {
    opacity: 1;         /* quando o mause estiver por cima eu vejo 100% da img*/
-	transition: 400ms; /* faz a transiçao ao passar o mause na img demorando 400ms*/
-	box-shadow:  #ebe8e8; /* colocando uma sombra na imagem 10px no eixo X,Y o 5px vai de solido para transparente para cria uma outra sombra colocar uma virgula antes do ponto e virgula e continue*/
-}
+    /*transition: 400ms; /* faz a transiçao ao passar o mause na img demorando 400ms*/
+  /*  box-shadow:  #ebe8e8; /* colocando uma sombra na imagem 10px no eixo X,Y o 5px vai de solido para transparente para cria uma outra sombra colocar uma virgula antes do ponto e virgula e continue*/
+/*}
 
 #galeria :hover {
    opacity: 0.3;   /* opacidade de 30% na img*/
-}
+/*}
 
-/*Imagens de coxinhas*/
+/* imagens de coxinhas*/
+
 .imagem-capa01 {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 60%;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;   
 }
 
 .my-3 {
+
    text-align: center;
 }
+
+ /* borda da img bom para saude definiçao despolpamento*/
+
+.card-img-top {
+  border: 15px solid transparent;
+
+}
+
+/* borda de todas imagens ficou transparente*/
+
+.card  {
+border: 1px solid white;
+  
+  }
+
+/* margin da img acai*/
+
+  .imagem-acai {
+
+  margin:10px;
+  }
+
+/* margin do carrosel*/
+
+  .carousel-inner {
+
+     margin:15px;
+  }
+
+  /* margin das img de coxinhas*/
+  
+  .cdc {
+     margin:20px;
+  }
+
+strong {
+   color: white;
+}
+
+
+ 
