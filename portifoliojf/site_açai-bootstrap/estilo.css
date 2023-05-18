@@ -50,6 +50,27 @@ nav a:hover {
    color: #7D1E7C; 
 }
 
+/*Animaçao do texto Quem Somos*/
+.well {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-direction: alternate;
+}
+
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 /*Imagens de misto quente*/
 .imagem-capa {
     display: block;
