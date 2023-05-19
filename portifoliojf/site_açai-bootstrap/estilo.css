@@ -156,5 +156,10 @@ strong {
    color: white;
 }
 
+/* animacao nas imagens col*/
+
+    .col:hover {
+      transform: scale(1.1);
+    }
 
  
